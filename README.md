@@ -3,10 +3,15 @@ DevExpress 的一些控件的扩展
   
    关于dev控件的扩展，有想到的功能并有时间就加一加，慢慢完善吧。。。
 
-
-
-  1、dxSpreadSheet.Helper.pas
+##  dxSpreadSheet.Helper.pas
   在dxSpreadSheet控件的滚动条左边分隔条处增加右键菜单，弹出显示当前的的所有工作表
+
+使用示例![链接文本](https://github.com/yanjiu-xyz/DevExpressEx/blob/master/dxSpreadSheetPopupMenu.png)
+
+
+
+
+----------
 
 
 

@@ -19,7 +19,7 @@ uses
 type
   TdxSpreadSheetHelper = class helper for TdxSpreadSheet
   public
-    constructor Create(AOwner: TComponent);
+    procedure InitSplitterPopupMenu;
   end;
 
   TdxSpreadSheetPageControlViewInfoEx = class(TdxSpreadSheetPageControlViewInfo)
@@ -133,11 +133,10 @@ end;
 
 { TdxSpreadSheetHelper }
 
-constructor TdxSpreadSheetHelper.Create(AOwner: TComponent);
+procedure TdxSpreadSheetHelper.InitSplitterPopupMenu;
 var
   AViewInfo: TdxSpreadSheetPageControlViewInfoEx;
 begin
-  inherited;
   AViewInfo := TdxSpreadSheetPageControlViewInfoEx.Create(Self.PageControl);
   Self.PageControl.CreateViewInfo(AViewInfo);
 end;

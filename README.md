@@ -7,14 +7,16 @@ DevExpress 的一些控件的扩展
   在dxSpreadSheet控件的滚动条左边分隔条处增加右键菜单，弹出显示当前的的所有工作表
 
 ----------
-使用示例
- 引用
- 1.在窗体上引用 dxSpreadSheet.Helper.pas 
- 2.在初始化界面上执行  dxSpreadSheet1.InitSplitterPopupMenu;
+使用示例 
+
+ - 1.在窗体上引用 dxSpreadSheet.Helper.pas 
+ - 2.在初始化界面上执行  dxSpreadSheet1.InitSplitterPopupMenu;
 
 
-效果
-![链接文本](https://github.com/yanjiu-xyz/DevExpressEx/blob/master/dxSpreadSheetPopupMenu.png)
+ 运行效果图 
+
+  ![image](https://github.com/yanjiu-xyz/DevExpressEx/blob/master/dxSpreadSheetPopupMenu.png)
+
 
 
 

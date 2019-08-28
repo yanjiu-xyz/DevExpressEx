@@ -10,7 +10,7 @@ DevExpress 的一些控件的扩展
 使用示例 
 
  - 1.在窗体上引用 dxSpreadSheet.Helper.pas 
- - 2.在初始化界面上执行  dxSpreadSheet1.InitSplitterPopupMenu;
+ - 2.在初始化时执行 dxSpreadSheet1.InitSplitterPopupMenu;
 
 
  运行效果图 

@@ -11,7 +11,9 @@ DevExpress 的一些控件的扩展
 
  - 1.在窗体上引用 dxSpreadSheet.Helper.pas 
  - 2.在初始化时执行 dxSpreadSheet1.InitSplitterPopupMenu;
-
+ 
+ 
+ - 注意：暂时仅只支持19.1.x及以上版本
 
  运行效果图 
 
